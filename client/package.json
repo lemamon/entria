@@ -1,0 +1,29 @@
+{
+  "name": "entriaChallenge",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "relay": "relay-compiler --src ./src --schema data/schema.graphql",
+    "relay:watch": "yarn relay --watch",
+    "get-schema": "node scripts/getSchema.js"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.53.3",
+    "react-relay": "^1.5.0",
+    "relay": "^0.8.0-1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-plugin-relay": "^1.5.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.2.0",
+    "relay-compiler": "^1.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "plugins": [["relay", { "schema": "data/schema.json" }]],
+  "presets": ["react-native"]
+}

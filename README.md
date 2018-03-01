@@ -2,13 +2,13 @@
 
 You need have installed:
 
-`Mongo DB`
+* [Mongo DB](https://www.mongodb.com/)
 
-`NodeJs/NPM`
+* [NodeJs/NPM](https://nodejs.org/en/)
 
-`Yarn`
+* [Yarn](https://yarnpkg.com/)
 
-`react-native`
+* [react-native](https://facebook.github.io/react-native/)
 
 To execute this projects
 
@@ -18,7 +18,7 @@ open terminal
 
     node .
 
-open terminal
+in other tab of terminal
 
     cd client/ && yarn
     
@@ -27,3 +27,9 @@ open terminal
 in other tab of terminal
 
     react-native run-android
+
+    or
+
+    react-native run-ios
+
+
